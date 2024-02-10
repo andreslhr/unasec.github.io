@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="shorcut icon" href="static/img/una_logo.png">
+
+    <script src="https://kit.fontawesome.com/6732db238e.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" charset="UTF-8"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <title>Inicio</title>
+</head>
+
+<body>
+    <!--Ventana modal-->
+
+    <dialog class="modal-container" id="modal-container">
+        <div class="ventana-modal">
+            <div class="modal-title">
+                <button id="validacion-btn-xmark"><i class="fa-solid fa-xmark"></i></button>
+                <div class="modal-text">
+                    <h1>Universidad Nacional Abierta</h1>
+                    <h2>Si ya posee su usuario y contraseña presione:</h2>
+                </div>
+                <ul>
+                    <li><a href="#">Postgrado</a></li>
+                    <h2>o</h2>
+                    <li><a href="#">Pregrado</a></li>
+                </ul>
+            </div>
+        </div>
+    </dialog>
+    <header>
+        <!--Header logo-->
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="/">
+                    <ul class="img-logo">
+                        <img src="static/img/una_logo.png" width="50px" alt="">
+                        <h1>Universidad Nacional <br> Abierta</h1>
+                    </ul>
+                </a>
+            </div>
+
+            <!--Validación-->
+
+            <div class="validacion-container">
+                <div class="validacion-title">
+                    <li id="validacion-btn"><a href="#">Validación</a></li>
+                </div>
+            </div>
+
+            <!--redes cociales header -->
+
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <!--Boton menu-->
+
+            <div class="btn-menu">
+                <label for="btn-menu">☰</label>
+            </div>
+            <input type="checkbox" id="btn-menu">
+
+            <!--Dropdown-->
+
+            <div class="container-menu">
+                <div class="cont-menu">
+                    <ul class="dropdown" id="menu">
+                        <li class="dropdown_list">
+                            <a href="index.html" class="dropdown_link"><span class="dropdown_span">Inicio</span> </a>
+                        </li>
+                        <li class="dropdown_list">
+                            <a href="#" class="dropdown_link"><span class="dropdown_span">Pregrado</span>
+                                <i id="dropdown_arrow" class="fa-solid fa-caret-down"></i>
+                                <input type="checkbox" class="dropdown_check"></a>
+                            <div class="dropdown_content">
+                                <ul class="dropdown_sub">
+                                    <li class="dropdown_li">
+                                        <a href="#" class="dropdown_anchor">Proceso modificaciones lapso
+                                            2024-1</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="dropdown_list">
+                            <a href="#" class="dropdown_link"><span class="dropdown_span">Postgrado</span>
+                                <i id="dropdown_arrow" class="fa-solid fa-caret-down"></i>
+                                <input type="checkbox" class="dropdown_check"></a>
+                            <div class="dropdown_content">
+                                <ul class="dropdown_sub">
+                                    <li class="dropdown_li">
+                                        <a href="#" class="dropdown_anchor">Curso de iniciación lapso 2023-3</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="#" class="dropdown_anchor">Registro de pago</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+                    </ul>
+                    <label for="btn-menu">✖️</label>
+                    <div class="media-dropdown">
+                        <ul>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </ul>
+                    </div>
+                    <div class="validacion-container-second">
+                        <div class="validacion-title">
+                            <li id="validacion-btn2"><a href="#">Validación</a></li>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <!--Navegación-->
+
+    <nav>
+        <div class="nav-container nav-second">
+            <div class="nav-title">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Pregrado<i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Proceso modificaciones lapso 2024-1</a>
+                    </ul>
+                </li>
+                <li><a href="#">Postgrado<i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Curso de iniciación lapso 2023-3</a>
+                        <li><a href="#">Registro de pago</a>
+                    </ul>
+                </li>
+            </div>
+        </div>
+        <!--Slider-->
+        <div class="slider-container">
+            <div class="slide-track">
+                <div class="slide">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates amet voluptate sed accusamus
+                        sunt corrupti. Placeat a esse iste doloremque, velit dignissimos culpa enim aut eius, numquam
+                        consequuntur quod deserunt.</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Boton que lleva hacia arriba-->
+
+    <div class="container-go">
+        <div class="go-button">
+            <i class="fa-solid fa-caret-up"></i>
+        </div>
+    </div>
+
+    <section>
+
+        <!--Una img titulo-->
+
+        <div class="contenedor-una">
+            <div class="una-title">
+                <h1>Universidad Nacional Abierta</h1>
+                <h2>Carreras y requisitos de ingreso en el siguiente enlace:</h2>
+                <li><a href="#">Conocer más</a></li>
+            </div>
+        </div>
+
+        <!--Una secretaria-->
+
+        <div class="una-concept">
+            <div class="una-concept-title">
+                <h1>Universidad Nacional Abierta</h1>
+                <h2>Area de secretaria</h2>
+                <ul>
+                    <p>La Secretaría es la instancia destinada a servir de soporte a los máximos organismos de gobierno
+                        y
+                        dirección de la Universidad: Consejo Superior y Consejo Directivo.</p>
+                    <p>Maneja el archivo General de la Universidad, el procesamiento mecanizado y estadístico de la
+                        inscripciôn y los resultados de la evaluación de los alumnos.</p>
+
+                    <p>Elabora los informes semestrales de la Universidad, para su debida presentación e información al
+                        Consejo Directivo.</p>
+
+                    <p>Asi mismo, la Secretaría es la unidad de Dirección encargada de fomentar, producir y mantener los
+                        convenios interinstitucionales marco para reválidas de títulos y el otorgamiento de
+                        equivalencias de estudios.</p>
+                </ul>
+            </div>
+        </div>
+
+        <!--Una info estudiantes-->
+
+        <div class="student-title">
+            <h1>información</h1>
+            <div class="student-title-second">
+                <div class="student-info">
+                    <h1>Atención estudiantes de (Pregrado)</h1>
+                    <ul>
+                        <h2>Proceso de modificaciones lapso 2024-1, se realizara desde el 03/10/2023 hasta el
+                            14/10/2023.
+                        </h2>
+                        <h2>Para formalizar el proceso, descargue aqui el siguiente archivo.</h2>
+                    </ul>
+                    <li><a href="#">Descargar Instructivo</a></li>
+                </div>
+                <div class="student-info">
+                    <h1>Atención estudiantes de (Postgrado)</h1>
+                    <ul>
+                        <h2>Registro de curso iniciación.</h2>
+                        <h2>Para formalizar el proceso, descargue aqui el siguiente archivo.</h2>
+                    </ul>
+                    <li><a href="#">Descargar Instructivo</a></li>
+                </div>
+            </div>
+        </div>
+
+        <!--Una info estudiantes enlaces-->
+
+        <div class="container-enlaces">
+            <h1>Dirección de Registro y Control de Estudios</h1>
+            <div class="enlaces-title">
+                <h1> Admisión, Estudios Generales y Profesionales</h1>
+                <h2>Solicitudes:</h2>
+                <div class="enlaces-title-info">
+                    <a href="#">
+                        <div class="enlaces-info">
+                            <ul>
+                                <img src="static/img/student/asignatura.png" width="120px" alt="">
+                                <h1>Asignaturas en paralelo</h1>
+                            </ul>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="enlaces-info">
+                            <ul>
+                                <img src="static/img/student/creditos.png" width="120px" alt="">
+                                <h1>Excedencia de Créditos</h1>
+                            </ul>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="enlaces-info">
+                            <ul>
+                                <img src="static/img/student/funcionarios.png" width="120px" alt="">
+                                <h1>Autorización Funcionarios (FEUNA)</h1>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+                <div class="enlaces-title-info">
+                    <a href="#">
+                        <div class="enlaces-info">
+                            <ul>
+                                <img src="static/img/student/certificado.png" width="120px" alt="">
+                                <h1>Certificado de Competencia</h1>
+                            </ul>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="enlaces-info enlaces-second">
+                            <ul>
+                                <img src="static/img/student/student.png" width="120px" alt="">
+                                <h1>Estudiantes Regulares(PREGRADO) Solicitud De Documentos</h1>
+                            </ul>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="enlaces-info">
+                            <ul>
+                                <img src="static/img/student/titulo.png" width="120px" alt="">
+                                <h1>Reválida de Título</h1>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--Segundos enlaces-->
+            <div class="enlaces-title title-second">
+                <h2>Información:</h2>
+                <div class="enlaces-title-info">
+                    <a href="#">
+                        <div class="enlaces-info">
+                            <ul>
+                                <img src="static/img/student/requisitos.png" width="120px" alt="">
+                                <h1>Carreras y Requisitos de Ingreso</h1>
+                            </ul>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="enlaces-info">
+                            <ul>
+                                <img src="static/img/student/bancos.png" width="120px" alt="">
+                                <h1>Bancos Autorizados</h1>
+                            </ul>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="enlaces-info enlaces-info-second">
+                            <ul>
+                                <img src="static/img/student/directorio.png" width="120px" alt="">
+                                <h1>Directorio de los Orientadores (Curso Introductorio)</h1>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--terceros enlaces-->
+            <div class="enlaces-title title-tercer">
+                <h2>Aranceles de los Servicios Estudiantiles:</h2>
+                <div class="enlaces-title-info">
+                    <a href="#">
+                        <div class="enlaces-info">
+                            <ul>
+                                <img src="static/img/student/aranceles.png" width="120px" alt="">
+                            </ul>
+                            <h1>Aranceles Pregrado</h1>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Una info estudiantes enlaces dos-->
+
+        <div class="container-enlaces container-enlaces-second">
+            <div class="enlaces-title">
+                <h1>Grado, Postgrado y Educación Continua</h1>
+                <h2>Solicitudes:</h2>
+                <div class="enlaces-title-info">
+                    <a href="#">
+                        <div class="enlaces-info">
+                            <ul>
+                                <img src="static/img/student/conferimiento.png" width="120px" alt="">
+                                <h1>Conferimiento de Título</h1>
+                            </ul>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="enlaces-info">
+                            <ul>
+                                <img src="static/img/student/certificacion.png" width="120px" alt="">
+                                <h1>Certificaciones</h1>
+                            </ul>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Boton que lleva hacia arriba-->
+
+    <div class="container-go">
+        <div class="go-button">
+            <i class="fa-solid fa-caret-up"></i>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="contenedor-footer">
+            <h1>Del pueblo venimos y hacia el pueblo vamos</h1>
+            <div class="footer-title">
+                <div class="footer-info">
+
+                    <h1>Universidad Nacional Abierta</h1>
+                    <h2>(Sede Principal) Av. Los Calvani</h2>
+                    <h2> San Bernardino Caracas, Dtto. Capital</h2>
+                </div>
+                <div class="footer-info footer-media">
+                    <h1>Contacto</h1>
+                    <h2><i class="fa-solid fa-phone"></i>+58XXX XXXXXXX</h2>
+                    <h2><i class="fa-solid fa-envelope"></i>example@gmail.com</h2>
+                </div>
+                <div class="footer-info politics">
+                    <h1>Sobre nosotros</h1>
+                    <a href="#">Politicas de Privacidad</a>
+                    <a href="quienes_somos.html">¿Quienes Somos?</a>
+                </div>
+            </div>
+        </div>
+        <div class="media-footer">
+            <ul>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="static/js/script_go.js"></script>
+    <script src="static/js/modal.js"></script>
+    <script src="static/js/carrusel.js"></script>
+</body>
+
+</html>
